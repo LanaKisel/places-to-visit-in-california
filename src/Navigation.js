@@ -4,7 +4,6 @@ import React from "react";
 import { ReactDOM } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-/* define the NavBar component */
 function Navigation() {
   return (
     <nav>
@@ -15,11 +14,24 @@ function Navigation() {
         Home
       </NavLink>
       <NavLink
+        to="/about"
+        className="nav-link"
+      >
+        About
+      </NavLink>
+      <NavLink
         to="/places"
         className="nav-link"
       >
         California Places
       </NavLink>
+      
+      {/* <NavLink
+        to="/places/new"
+        className="nav-link"
+      >
+        
+      </NavLink> */}
       {/* <NavLink
         to="/login"
         className="nav-link"
