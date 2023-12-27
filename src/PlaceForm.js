@@ -1,14 +1,14 @@
 import React, {useEffect, useState, useCallback} from 'react'
 
 const PlaceForm = () => {
-    const [place, setPLace]=useState({
+    const [place, setPlace]=useState({
         title: "",
         description: "",
         image: ""
     })
 
     const handleChange=(e)=>{
-        setPLace({...place, [e.target.name]:e.target.value})
+        setPlace({...place, [e.target.name]:e.target.value})
     }
 
     const handleSubmit=(e)=>{
@@ -26,7 +26,7 @@ const PlaceForm = () => {
         body: JSON.stringify(newPlace) 
     })
     .then(r=>r.json())
-    .then(data=>console.log(data))
+    .then(data=>setPlace(data))
     }
   return (
     <div>
