@@ -5,12 +5,12 @@ const Places = () => {
 //     useEffect(()=>{
 //         fetch("http://localhost:3000/places")
 //     },[]) 
-//   return (
+ return (
     <div>
-        Places
-      
+        <h1>The most beautiful places in California</h1>
+        <hr/>
     </div>
-  
+ )
 }
 
 export default Places
