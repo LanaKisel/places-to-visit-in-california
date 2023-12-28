@@ -13,10 +13,15 @@ const Place = (props) => {
         console.log(id)
         fetch(`http://localhost:3000/places/${id}`)
         .then(r=>r.json())
-        .then(data=>console.log(data))
+        .then(data=>
+            setPlace(data))
     },[])
   return (
     <div>
+        <h2>{place.title}</h2>
+        <h3>{place.description}</h3>
+        <img src={place.image}></img>
+
       
     </div>
   )
