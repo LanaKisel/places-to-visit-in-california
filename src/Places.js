@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import NewButton from './NewButton'
+import PlaceLink  from './PlaceLink';
 const Places = () => {
     const [places, setPlaces] = useState([]);
 
@@ -8,7 +9,7 @@ const Places = () => {
         .then(r=>r.json())
         .then(data=>setPlaces(data))
     },[]) 
-    const placesList = places.map(p =><li key={p.id}>{p.title}</li>)
+    const placesList = places.map(p =><PlaceLink key={p.id} place={p}/>)
  return (
     <div>
         <h1>The most beautiful places in California</h1>
