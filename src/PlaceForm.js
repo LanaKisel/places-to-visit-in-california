@@ -1,6 +1,8 @@
-import React, { useState, useCallback } from 'react'
+import React, { useState, useCallback } from 'react';
+import { useNavigate } from 'react-router-dom';
 
-const PlaceForm = (props) => {
+const PlaceForm = () => {
+    let navigate= useNavigate()
     const [place, setPlace] = useState({
         title: "",
         description: "",
@@ -27,8 +29,7 @@ const PlaceForm = (props) => {
         })
             .then(r => r.json())
             .then(data => {
-                console.log(props, props.history)
-               props.history.push('/places')
+               navigate('/places')
             })
     }
     return (
