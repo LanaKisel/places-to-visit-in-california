@@ -7,9 +7,10 @@ import Navigation from './Navigation';
 import PlaceForm from './PlaceForm';
 import About from './About';
 import Place from './Place';
-
+import { PlacesProvider } from './Context';
 function App() {
   return ( 
+    <PlacesProvider>
     <Router>
       <Navigation />
       <div className="App">
@@ -22,7 +23,7 @@ function App() {
         </Routes>
       </div>
     </Router>
-
+    </PlacesProvider>
   );
 }
 
