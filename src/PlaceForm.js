@@ -1,19 +1,16 @@
-import React, { useState, useCallback, useContext } from 'react';
+import React, { useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { PlacesContext } from './Places';
+import  {PlacesContext} from "./Context"
 
 const PlaceForm = () => {
-
     let navigate = useNavigate()
-
     const [place, setPlace] = useState({
         title: "",
         description: "",
         image: ""
     })
-
     const {addPlace} = useContext(PlacesContext)
-    console.log(addPlace)
+    console.log("context function!", addPlace)
 
     const handleChange = (e) => {
         setPlace({ ...place, [e.target.name]: e.target.value })
