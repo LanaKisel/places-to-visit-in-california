@@ -20,9 +20,7 @@ const Place = (props) => {
     <div>
         <h2>{place.title}</h2>
         <h3>{place.description}</h3>
-        <img src={place.image}></img>
-
-      
+        <img src={place.image}></img>      
     </div>
   )
 }

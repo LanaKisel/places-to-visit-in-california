@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
 import "./Navigation.css";
 import React from "react";
-import { ReactDOM } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { ReactDOM } from "react";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function Navigation() {
   return (
@@ -25,19 +25,6 @@ function Navigation() {
       >
         California Places
       </NavLink>
-      
-      {/* <NavLink
-        to="/places/new"
-        className="nav-link"
-      >
-        
-      </NavLink> */}
-      {/* <NavLink
-        to="/login"
-        className="nav-link"
-      >
-        Login
-      </NavLink> */}
     </nav>
   );
 };

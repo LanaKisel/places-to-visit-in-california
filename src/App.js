@@ -7,8 +7,9 @@ import Navigation from './Navigation';
 import PlaceForm from './PlaceForm';
 import About from './About';
 import Place from './Place';
+
 function App() {
-  return (
+  return ( 
     <Router>
       <Navigation />
       <div className="App">

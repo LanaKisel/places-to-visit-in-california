@@ -1,13 +1,19 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { PlacesContext } from './Places';
 
 const PlaceForm = () => {
-    let navigate= useNavigate()
+
+    let navigate = useNavigate()
+
     const [place, setPlace] = useState({
         title: "",
         description: "",
         image: ""
     })
+
+    const {addPlace} = useContext(PlacesContext)
+    console.log(addPlace)
 
     const handleChange = (e) => {
         setPlace({ ...place, [e.target.name]: e.target.value })
@@ -29,17 +35,18 @@ const PlaceForm = () => {
         })
             .then(r => r.json())
             .then(data => {
-               navigate('/places')
+                addPlace(data)
+                navigate('/places')
             })
     }
     return (
         <div>
             <form onSubmit={handleSubmit}>
-                <label>Title</label>
+                <label>Title </label>
                 <input name="title" onChange={handleChange} type="text" /><br />
-                <label>Description</label>
+                <label>Description </label>
                 <input name="description" onChange={handleChange} type="text" /><br />
-                <label>Image</label>
+                <label>Image URL </label>
                 <input name="image" onChange={handleChange} type="text" /><br />
                 <input type="submit" />
             </form>
