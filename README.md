@@ -1,7 +1,13 @@
-# Places to visit 
-- testing 
+# Places to visit
+
+## Skills I used to create a React single page application
+In this application I applied knowledge of components, props, state management, and incorporated client-side routing. Created a db.json file, which serves as a RESTful API for my backend and an inables me to make both a GET and a POST request to the json server
+
+### How it works
 
 
+#### Credits
+Beutiful pictures and descriptions of destinations were used from https://travel.usnews.com/rankings/best-places-to-visit-in-california/
 
 
 <!-- # Getting Started with Create React App
