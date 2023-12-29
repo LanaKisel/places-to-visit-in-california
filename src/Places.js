@@ -1,21 +1,16 @@
-import React, { useState, useEffect } from 'react'
+import React, { useContext } from 'react'
 import NewButton from './NewButton'
 import PlaceLink from './PlaceLink';
-export const PlacesContext = React.createContext()
+import { PlacesContext } from './Context';
 
 const Places = () => {
+    const {places, setPlaces}= useContext(PlacesContext)
 
-    const [places, setPlaces] = useState([]);
-
-    const addPlace= function (newPlace) {
-        setPlaces([...places, newPlace])
-    }
-
-    useEffect(() => {
+    if (!places || places.length === 0) {
         fetch("http://localhost:3000/places")
-            .then(r => r.json())
-            .then(data => setPlaces(data))
-    }, [])
+        .then(r => r.json())
+        .then(data => setPlaces(data))
+    }
     const placesList = places.map(p => <PlaceLink key={p.id} place={p} />)
     return (
         <div>
