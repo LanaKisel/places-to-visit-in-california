@@ -1,3 +1,22 @@
+body {
+  background-color: #71a5aa;
+  ;
+}
+h1{
+  color: rgb(35, 32, 43);
+  font-family:cursive;
+  padding: 1em;
+  font-size: 50px;
+}
+p{
+  font-family:cursive;
+  font-weight: 300;
+  font-size: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 .App {
   text-align: center;
 }

@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import NewButton from './NewButton'
 import PlaceLink from './PlaceLink';
 import { PlacesContext } from './Context.js';
-
+import './App.css';
 const Places = () => {
     const { places, setPlaces } = useContext(PlacesContext)
 
