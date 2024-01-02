@@ -13,9 +13,12 @@ const PlaceForm = () => {
     console.log("context function!", addPlace)
 
     const handleChange = (e) => {
+        if (e.target.type === "file") {
+            let img = e.target.files[0];
+            setPlace({...place, [e.target.name]: URL.createObjectURL(img)})
+        } else { 
         setPlace({ ...place, [e.target.name]: e.target.value })
-    }
-
+    } }
     const handleSubmit = (e) => {
         e.preventDefault();
         const newPlace = {
@@ -43,8 +46,8 @@ const PlaceForm = () => {
                 <input name="title" onChange={handleChange} type="text" /><br />
                 <label>Description </label>
                 <input name="description" onChange={handleChange} type="text" /><br />
-                <label>Image URL </label>
-                <input name="image" onChange={handleChange} type="text" /><br />
+                <label>Image </label>
+                <input name="image" onChange={handleChange} type="file" /><br />
                 <input type="submit" />
             </form>
 
