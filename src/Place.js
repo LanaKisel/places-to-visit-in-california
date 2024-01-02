@@ -10,7 +10,6 @@ const Place = () => {
     })
 
     useEffect(()=>{
-        console.log(id)
         fetch(`http://localhost:3000/places/${id}`)
         .then(r=>r.json())
         .then(data=>
@@ -19,7 +18,11 @@ const Place = () => {
     <div>
         <h2>{place.title}</h2>
         <h3>{place.description}</h3>
-        <img alt = {place.title} src={place.image}></img>      
+        <img alt = {place.title} src={place.image} style={{
+            resizeMode: 'contain',
+            height: 500,
+            width: 400,
+          }}></img>      
     </div>
   )
 }
