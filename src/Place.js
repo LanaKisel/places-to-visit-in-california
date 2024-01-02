@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom'
 
-const Place = (props) => {
+const Place = () => {
     let { id } = useParams()
     const [place, setPlace]=useState({
         title: "",

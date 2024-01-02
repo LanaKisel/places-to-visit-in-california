@@ -6,7 +6,7 @@ In this application I applied knowledge of components, props, state management, 
 ### How it works
 
 
-#### Credits
+### Credits
 Beutiful pictures and descriptions of destinations were used from https://travel.usnews.com/rankings/best-places-to-visit-in-california/
 
 

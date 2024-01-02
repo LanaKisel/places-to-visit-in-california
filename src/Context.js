@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
-export const PlacesContext = createContext();
-export const PlacesProvider = ({children})=>{
+ const PlacesContext = createContext();
+ const PlacesProvider = ({children})=>{
     const [places, setPlaces]=useState([]);
     const addPlace = (newPlace)=>{
         setPlaces([...places, newPlace]);
@@ -12,3 +12,4 @@ export const PlacesProvider = ({children})=>{
     </PlacesContext.Provider>
   )
 }
+export {PlacesContext, PlacesProvider}
