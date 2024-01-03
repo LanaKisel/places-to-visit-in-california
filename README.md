@@ -1,10 +1,10 @@
 # Places to visit
 
 ## Skills I used to create a React single page application
-In this application I applied knowledge of components, props, state management, and incorporated client-side routing. Created a db.json file, which serves as a RESTful API for my backend and an inables me to make both a GET and a POST request to the json server
+In this application I applied knowledge of components, props, state management, and incorporated client-side routing. Created a db.json file, which inabled me to make both a GET and a POST requests.
 
 ### How it works
-
+This application is about places yu can visit in a state of California. First thing you see is a Home page, which welcomes with information about this application. In the top left corner I have my navigation: NavLinks.They are: "Home", "About" and "Califonia Places". By clicking on each you'll be redirected to a URL in accordance with the code in Navigation.js. About component renders information about "Visit California" organization, their mission along with the reason of their existance. "California Places" component renders links to the landmarks you might be interested to visit. The name of the links are titles of the plpaces. By clicking on which, you'll be redirected to the URL, that includes description of the place along with the images. Below the links in "California Places" there's a button named "Click the button to add new place". Click event fires, after clicking the button which will redirect you to the Form component. Here you can add Name, description and an image file for your place. After submitting, you'll be automatically redirected to the California Places view and be able to see the link to your just added place below all the original places. This application is a single page, with 9 components which are rendered in App.js using BrowserRouter. 
 
 ### Credits
 Beutiful pictures and descriptions of destinations were used from https://travel.usnews.com/rankings/best-places-to-visit-in-california/
