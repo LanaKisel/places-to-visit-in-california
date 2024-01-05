@@ -10,8 +10,6 @@ const PlaceForm = () => {
         image: ""
     })
     const {addPlace} = useContext(PlacesContext)
-    console.log("context function!", addPlace)
-
     const handleChange = (e) => {
         if (e.target.type === "file") {
             let img = e.target.files[0];
