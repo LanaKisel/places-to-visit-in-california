@@ -19,10 +19,46 @@
       "image": "https://travel.usnews.com/dims4/USNEWS/60c6b8a/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https%3A%2F%2Ftravel.usnews.com%2Fimages%2Fgettyimages-599456588_v8Ztsa6.jpg"
     },
     {
-      "title": "SF",
-      "description": "",
-      "image": "blob:http://localhost:3001/0ff8ad19-a1f3-4abb-852e-da6b6b6ff101",
-      "id": 4
+      "id": 4,
+      "title": "Mammoth Lakes",
+      "description": "If you've never thought of the Golden State as a ski destination, Mammoth Lakes might change your mind. Nestled in the Eastern Sierra region, Mammoth Lakes is home to the Mammoth Mountain Ski Area, the highest ski resort in the state. In winter, the region's 150-plus trails welcome skiers, ice skaters and snowboarders in droves. When the temperatures rise and the snow melts, vacationers can try other outdoor activities, such as hiking, rock climbing, paddleboarding and taking a dip in the area's hot springs.",
+      "image":"https://travel.usnews.com/dims4/USNEWS/c4892c1/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https%3A%2F%2Ftravel.usnews.com%2Fimages%2FFall-Color-Mammoth-Lakes-Basin-Josh_Wray-Mammoth_Lakes_Tourism_dcbVtu4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Sequoia National Park" ,
+      "description": "If you want an eyeful of the state's iconic, towering sequoias during your California vacation, there's no better place to visit than Sequoia National Park. These magnificent trees are native to the western slope of the Sierra Nevada mountain range in central California. The Giant Forest, the park's main attraction, features 8,000-plus sequoias, which stand as tall as the average height of a 26-story building. You'll also stumble upon the General Sherman Tree, the largest tree in the world by volume." ,
+      "image":"https://travel.usnews.com/dims4/USNEWS/368163b/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https%3A%2F%2Ftravel.usnews.com%2Fimages%2Fgettyimages-561283287_445x280_2tLOOye.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Big Bear Lake" ,
+      "description": "No matter what time of year you decide to visit this rugged alpine town, located about 80 miles northwest of Palm Springs, you'll be treated to scenic mountain vistas and plenty of outdoor adventures. Nestled in the San Bernardino National Forest, Big Bear Lake (one of the top lakes in California) is popular for its excellent fishing and boating opportunities. In summer, enjoy adventurous pursuits like hiking, mountain biking and kayaking, and in winter, go skiing and snowboarding at Big Bear Mountain Resort. When you need a break from all the action, check out the shops and restaurants at The Village at Big Bear Lake.",
+      "image": "https://travel.usnews.com/dims4/USNEWS/9335a4e/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https%3A%2F%2Ftravel.usnews.com%2Fimages%2Fbig_bear_lake_main_445x280_vG8OTAp.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Half Moon Bay",
+      "description": "For a quiet reprieve from city life, check out the quaint coastal community of Half Moon Bay, which lies approximately 30 miles south of San Francisco. When you're not lounging at the town's namesake beach, which boasts 4 miles of sandy shoreline, stroll along the scenic Coastside Trail for terrific views of the Pacific Ocean and the surrounding hills. When hunger starts to set in, head downtown for a bite to eat at one of Half Moon Bay's local restaurants before indulging in a glass of wine at one of the destination's wineries.  ",
+      "image": "https://travel.usnews.com/dims4/USNEWS/a342f66/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https%3A%2F%2Ftravel.usnews.com%2Fimages%2Fhalf_moon_bay_main_445x280_qZltbbT.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Kings Canyon National Park",
+      "description": "Head to Kings Canyon National Park if you want to see more of California's famous sequoias after visiting Yosemite and Sequoia national parks. The park's most famous tree is the General Grant Tree, the second-largest tree in the world by volume. Named after former President Ulysses S. Grant in 1867, the tree has been lovingly designated "the Nation's Christmas Tree" since 1926. Aside from admiring Kings Canyon's sequoias, outdoor enthusiasts can enjoy hiking, horseback riding and rock climbing, among other activities.",
+      "image": "https://travel.usnews.com/dims4/USNEWS/1e68733/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https%3A%2F%2Ftravel.usnews.com%2Fimages%2Fkings_canyon_national_park_main_445x280_HXNZ6qY.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Joshua Tree National Park",
+      "description": "Sitting approximately 130 miles east of Los Angeles, Joshua Tree National Park’s roughly 800,000 acres are excellent for enjoying outdoor activities. Visitors can tackle some of the park's thousands of rock climbing routes or explore dozens of hiking trails, though they should be mindful of the weather – many of the paths should not be attempted on especially hot days. Other must-do activities include biking, horseback riding and stargazing; this International Dark Sky Park offers little light pollution, making it a superb place to admire the Milky Way",
+      "image": "https://travel.usnews.com/dims4/USNEWS/cf9cbe5/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https%3A%2F%2Ftravel.usnews.com%2Fimages%2Fjoshua_tree_main_resized-getty_445x280_toaXmmc.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Death Valley National Park",
+      "description": "Bearing the exclusive title of the lowest, hottest and driest place in the United States, Death Valley National Park deserves a spot on every traveler's bucket list. This one-of-a-kind destination straddling the California-Nevada border can be experienced on a self-guided auto tour of Badwater Road or Artists Drive, or by hiking the popular Dante's View trail. Other must-do activities in Death Valley include viewing exhibits at the Furnace Creek Visitor Center, watching the sunrise at Zabriskie Point and stargazing from the Mesquite Flat Sand Dunes. For the best weather, arrive between November and March (in summer, the park's average daytime temperature can often surpass 120 degrees).",
+      "image":"https://travel.usnews.com/dims4/USNEWS/49927c3/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https%3A%2F%2Ftravel.usnews.com%2Fimages%2Fdeath_valley_national_park_main_445x280_MMyb2KB.jpg"
     }
   ]
 }
