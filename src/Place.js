@@ -20,8 +20,7 @@ const Place = () => {
         <h3>{place.description}</h3>
         <img alt = {place.title} src={place.image} style={{
             resizeMode: 'contain',
-            height: 500,
-            width: 400,
+            height: 500
           }}></img>      
     </div>
   )
