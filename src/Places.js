@@ -5,7 +5,7 @@ import { PlacesContext } from './Context.js';
 import './App.css';
 const Places = () => {
     const { places, setPlaces } = useContext(PlacesContext)
-
+    
     if (!places || places.length === 0) {
         fetch("http://localhost:3000/places")
             .then(r => r.json())
